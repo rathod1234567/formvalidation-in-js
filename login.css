@@ -1,0 +1,44 @@
+body{
+    margin: 0%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("vk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+
+#Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px greenyellow;
+    opacity: 0.6;
+}
+input{
+    padding: 15px;
+    box-shadow: 3px 4px 5px red;
+    border-radius: 30px;
+    text-align: center;
+    opacity: 0.7;
+}
+button{
+   place-items: center;
+   margin-left: 55px;
+   width: 100px;
+   padding: 15px;
+   background-color: blue;
+   font-size: 16px;
+   border-radius: 30px;
+   /* opacity: 0.7; */
+}
